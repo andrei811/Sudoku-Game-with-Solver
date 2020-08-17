@@ -7,6 +7,7 @@ To run the sudoku game you need to install pygame. You can do that by using the 
 
 ```
 pip install pygame
+pip install tkinter
 ```
 
 ## Aditional info
