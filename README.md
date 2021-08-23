@@ -1,19 +1,20 @@
 # Sudoku-Game-with-Solver
-![img](https://github.com/andrei811/Sudoku-Game-with-Solver/blob)
-You can play a simple game of sudoku or you can let the computer to solve the sudoku game for you. 
-It use a simple backtracking algorithm, which guarantees a solution, if the sudoku matrix is a solvable.
+![img](https://raw.githubusercontent.com/andrei811/Sudoku-Game-with-Solver/master/Images/image.jpg)
+
+You can play sudoku or you can let the computer solve it for you. The algorithm for solving the game uses backtracking technique to fill the blank spaces.
 
 ## Library instalation
-To run the sudoku game you need to install pygame. You can do that by using the following command in cmd:
+The code execution requires the `pygame` library. The installation can be performed by running the following command in terminal.
 
 ```
 pip install pygame
-pip install tkinter
+```
+
+## Execute the game
+Open the terminal and make sure that the working directory is `Sudoku-Game-with-Solver`. Make sure also that you have `python` installed on the machine. Then execute the following command:
+```
+python Sudoku/sudoku_GUI.py
 ```
 
 ## Aditional info
-The sudoku game uses 2 python files, it won't work separated.
-The main file is 'sudoku_GUI.py'.
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+The `sudokumatrix.txt` stores the sudoku board. The `sudoku_text.py` file implements the backtracking algorithm for solving the game. The main file, `sudoku_GUI.py` uses the other files and implements a nice-looking GUI for the game.
