@@ -1,4 +1,5 @@
 # Sudoku-Game-with-Solver
+![img](https://github.com/andrei811/Sudoku-Game-with-Solver/blob)
 You can play a simple game of sudoku or you can let the computer to solve the sudoku game for you. 
 It use a simple backtracking algorithm, which guarantees a solution, if the sudoku matrix is a solvable.
 
